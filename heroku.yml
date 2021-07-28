@@ -1,5 +1,5 @@
-build:
+build: 
   docker:
-    ultroid: Dockerfile
+      worker: Dockerfile
 run:
-  ultroid: bash resources/startup/startup.sh
+   worker: python3 -m userbot
